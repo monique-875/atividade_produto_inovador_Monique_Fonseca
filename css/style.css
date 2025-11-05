@@ -51,16 +51,31 @@ body{
 }
 
 a{
-    color: #5121e0;
+    color: #3e21e0;
     text-decoration: none;
+    padding: 1%;
 }
 
-#imagem_paisagem{
+#imagem_extra{
     max-width:100%;
-    width: 500px;
-    height: 300px; 
+ 
  }
-
+ #produto_hero{
+    max-width:100%;
+ 
+ }
+ #produto_spec{
+    max-width:100%;
+ 
+ }
+#galeria_01{
+    max-width:100%;
+ 
+ }
+ #galeria_02{
+    max-width:100%;
+ 
+ }
 
 body {
      background-color:#aec4ee;  
