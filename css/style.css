@@ -1,0 +1,88 @@
+
+
+table{ 
+    border:2px solid black; 
+    width:100%; 
+    background-color: aqua ; 
+    margin-left: auto; 
+    margin-right:auto; 
+    border-collapse: collapse;
+} 
+
+td{ 
+    padding: 10px; 
+    border: 1px solid black; 
+     
+} 
+
+th{ 
+    padding: 5px; 
+    border: 1px solid black; 
+    background-color: lightblue; 
+} 
+
+tbody tr:nth-child(even){
+    background-color: #658cbc;
+
+}
+
+tbody tr:nth-child(odd){
+    background-color: #aec4ee;
+    
+}
+
+html { 
+    scroll-behavior: smooth; 
+}
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing:border-box;
+    font-family: "Merriweather", Arial, Helvetica, sans-serif;
+}
+
+
+
+body{
+     font-family: "Merriweather", Arial, Helvetica, sans-serif;
+     font-size: 1 rem
+     
+}
+
+a{
+    color: #5121e0;
+    text-decoration: none;
+}
+
+#imagem_paisagem{
+    max-width:100%;
+    width: 500px;
+    height: 300px; 
+ }
+
+
+body {
+     background-color:#aec4ee;  
+}
+h1{
+    color:#04022e;
+    background-color:#34257a40;
+}
+h2{
+    color:#051016;
+    background-color:#4329b7a8;
+} 
+h2::first-letter{
+    color: #ebc013;
+}
+ p{
+    color:#ffffff;
+} 
+.descricao{
+    color: #15457f;
+}
+
+section{
+    margin-top: 10px;
+}
